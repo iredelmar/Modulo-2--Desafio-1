@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.panelizquierdo{
+    width: 30%;
+    height: 100vh;
+    background-color: whitesmoke;
+    border: rgb(220, 219, 219);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.panelderecho{
+width: 70%;
+height: 100vh;
+background-color: rgb(238, 234, 234);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.panelderecho img{
+    width: 200px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.panelderecho h1{
+    font-size: 35px;
+
+
+}
+
+.panelderecho p{
+    font-size: 15px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.cajamaria{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border: rgb(220, 219, 219);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.usuario{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap: 1rem;
+}
+
+.cajamaria img{
+    max-width: 30px;
+    border-radius: 50%;
+}
+
+.textousuario{
+    font-size: 10px;
+}
+
+.iconos{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15%;
+    padding-right: 10%;
+}
+
+.nuevochat{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    width: 70%;
+    height: 40px;
+    background-color:rgb(164, 147, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton:hover{
+    background-color: rgb(141, 120, 141);
+    border: 2px solid black;
+    
+}
+
+.boton a p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.otrosusuarios{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border: rgb(220, 219, 219);
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.otrosusuarios img{
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+.otrosusuarios p{
+    font-size: 12px;
+}
